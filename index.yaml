@@ -3,7 +3,7 @@ entries:
   airflow:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2021-07-21T13:41:05.166919-05:00"
+    created: "2021-07-21T14:41:48.945769-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -26,23 +26,40 @@ entries:
     - https://github.com/apache/airflow
     type: application
     urls:
-    - https://nicolasbotello.com/helm-chart/charts/airflow-1.1.0-rc1.tgz
+    - https://bote795.github.io/helm-chart/charts/airflow-1.1.0-rc1.tgz
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2021-07-21T13:41:05.160776-05:00"
+    created: "2021-07-21T14:41:48.939599-05:00"
     dependencies:
     - name: airflow
       repository: https://github.com/astronomer/airflow/releases/download/oss-helm-chart%2F1.1.0-rc1/
       version: 1.1.0-rc1
     description: Helm chart to deploy the Astronomer Platform Airflow module
-    digest: 9e2bd9c7f3cb0f8a2eff6920eeab9cc0e5184bafd5a5766bde6990e451d6ad98
+    digest: ee8cfd81cd0a6257c5e456b334540764d3fefae253161157903cd643ef0e161e
     icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
     keywords:
     - astronomer
     - airflow
     name: airflow
     urls:
-    - https://nicolasbotello.com/helm-chart/airflow-1.0.0-rc1.tgz
+    - https://bote795.github.io/helm-chart/airflow-1.0.0-rc1.tgz
     version: 1.0.0-rc1
-generated: "2021-07-21T13:41:05.153184-05:00"
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2021-07-21T14:41:48.931537-05:00"
+    dependencies:
+    - name: airflow
+      repository: https://github.com/astronomer/airflow/releases/download/oss-helm-chart%2F1.1.0-rc1/
+      version: 1.1.0-rc1
+    description: Helm chart to deploy the Astronomer Platform Airflow module
+    digest: 78893406fd1be097ac0152b12bf8c58070cb410b2245592be0d5e33e64d7a3b3
+    icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
+    keywords:
+    - astronomer
+    - airflow
+    name: airflow
+    urls:
+    - https://bote795.github.io/helm-chart/airflow-0.20.1.tgz
+    version: 0.20.1
+generated: "2021-07-21T14:41:48.920696-05:00"
